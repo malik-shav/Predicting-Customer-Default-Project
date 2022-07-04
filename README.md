@@ -15,7 +15,7 @@ UCI Credit Card dataset can be accessed from https://www.kaggle.com/uciml/defaul
 
 
 ### Methods Used 
-The data is not balanced where default customers only account for ~22%. I will sampling techniques balance the data during modeling phase. Data was checked for missing values but none were found, and outliers in continuous variables using boxplot. Using winsorization, outliers were modified.
+The data is not balanced where default customers only account for ~22%. I will oversampling and undersampling techniques to balance the data during modeling phase. Data was checked for missing values but none were found, and outliers in continuous variables using boxplot. Using winsorization, outliers were modified.
 
 Primarily, graphs were used to conduct univariate and bivariate analysis of the variables. Education, sex, marriage, age, pay variables correlate with defualt outcome. Furthermore, there is a correlation between amount billed to and payed by two classes, but not much correlation between classes for average amount billed.
 
